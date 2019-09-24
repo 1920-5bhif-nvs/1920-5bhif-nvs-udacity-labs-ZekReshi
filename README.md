@@ -1,1 +1,3 @@
-1920-5bhif-nvs-udacity-labs-ZekReshi
+# Schwarcz Florian
+
+This repository is used for Florian Schwarcz' assignments in the Subject "NVS".
