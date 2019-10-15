@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">Florian Schwarcz</string>
+    <string name="yellow_star">Yellow Star</string>
+    <string name="bio">This is a very long bio.
+        \n\nIt is so huge that is uses multiple lines.
+        \nDo you see that lineSpacingMultiplier? I set it to 1.2, lol.
+        \nI need some more lines for the scrolling to work.
+        \nBlah.
+        \nBlah.
+        \nBlah.
+        \nBlah.
+        \nBlah.
+        \nBlah.</string>
+    <string name="what_is_your_nickname">What is your nickname?</string>
+    <string name="done">Done</string>
+</resources>
