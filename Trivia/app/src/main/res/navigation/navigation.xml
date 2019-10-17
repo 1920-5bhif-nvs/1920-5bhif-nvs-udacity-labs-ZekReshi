@@ -61,4 +61,9 @@
         android:name="at.htl.trivia.AboutFragment"
         android:label="title_about_trivia"
         tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/rulesFragment"
+        android:name="at.htl.trivia.RulesFragment"
+        android:label="fragment_rules"
+        tools:layout="@layout/fragment_rules" />
 </navigation>
