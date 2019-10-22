@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.guesstheword.screens.game
+package at.htl.guesstheword.screens.game
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,8 +23,8 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.NavHostFragment.findNavController
-import com.example.android.guesstheword.R
-import com.example.android.guesstheword.databinding.GameFragmentBinding
+import at.htl.guesstheword.R
+import at.htl.guesstheword.databinding.GameFragmentBinding
 
 /**
  * Fragment where the game is played

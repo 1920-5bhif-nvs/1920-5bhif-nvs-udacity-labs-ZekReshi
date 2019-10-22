@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.guesstheword
+package at.htl.guesstheword
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

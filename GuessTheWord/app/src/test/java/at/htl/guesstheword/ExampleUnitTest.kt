@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.guesstheword
+package at.htl.guesstheword
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
