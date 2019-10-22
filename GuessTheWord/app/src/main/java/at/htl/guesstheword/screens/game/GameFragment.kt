@@ -71,12 +71,7 @@ class GameFragment : Fragment() {
             timer_text.text = DateUtils.formatElapsedTime(currentTime   )
         })
 
-        binding.correctButton.setOnClickListener {
-            viewModel.onCorrect()
-        }
-        binding.skipButton.setOnClickListener {
-            viewModel.onSkip()
-        }
+        binding.gameViewModel = viewModel
 
         return binding.root
     }
