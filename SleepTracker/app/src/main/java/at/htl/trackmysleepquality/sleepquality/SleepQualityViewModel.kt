@@ -38,14 +38,19 @@ class SleepQualityViewModel(
         viewModelJob.cancel()
     }
 
-    fun onSetSleepQuality() {
+    fun onSetSleepQuality(quality: Int) {
         uiScope.launch {
             withContext(Dispatchers.IO) {
                 val tonight = database.get(sleepNightKey) ?: return@withContext
                 tonight.sleepQuality = quality
                 database.update(tonight)
             }
+            _navigateToSleepTracker.value = true
         }
+    }
+
+    fun doneNavigating() {
+        _navigateToSleepTracker.value = null
     }
 
 }
