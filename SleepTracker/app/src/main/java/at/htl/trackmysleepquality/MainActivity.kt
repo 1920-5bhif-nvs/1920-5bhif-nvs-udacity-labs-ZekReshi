@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.trackmysleepquality
+package at.htl.trackmysleepquality
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
