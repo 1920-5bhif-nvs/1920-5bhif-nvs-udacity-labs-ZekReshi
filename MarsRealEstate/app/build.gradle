@@ -27,7 +27,7 @@ android {
         enabled = true
     }
     defaultConfig {
-        applicationId "com.example.android.marsrealestate"
+        applicationId "at.htl.marsrealestate"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
@@ -63,4 +63,7 @@ dependencies {
 
     // Core with Ktx
     implementation "androidx.core:core-ktx:$version_core"
+
+    implementation "com.squareup.retrofit2:retrofit: $version_retrofit"
+    implementation "com.squareup.retrofit2:converter-scalars:$version_retrofit"
 }

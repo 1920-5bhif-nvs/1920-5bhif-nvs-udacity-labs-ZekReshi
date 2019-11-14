@@ -15,6 +15,6 @@
  *
  */
 
-package com.example.android.marsrealestate.network
+package at.htl.marsrealestate.network
 
-private const val BASE_URL = "https://mars.udacity.com/"
+class MarsProperty()

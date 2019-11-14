@@ -15,7 +15,7 @@
  *
  */
 
-package com.example.android.marsrealestate.overview
+package at.htl.marsrealestate.overview
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

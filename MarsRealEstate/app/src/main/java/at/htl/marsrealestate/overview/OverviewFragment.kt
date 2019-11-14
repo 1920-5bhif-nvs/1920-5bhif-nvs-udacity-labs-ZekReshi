@@ -15,14 +15,14 @@
  *
  */
 
-package com.example.android.marsrealestate.overview
+package at.htl.marsrealestate.overview
 
 import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
-import com.example.android.marsrealestate.R
-import com.example.android.marsrealestate.databinding.FragmentOverviewBinding
+import at.htl.marsrealestate.R
+import at.htl.marsrealestate.databinding.FragmentOverviewBinding
 
 /**
  * This fragment shows the the status of the Mars real-estate web services transaction.

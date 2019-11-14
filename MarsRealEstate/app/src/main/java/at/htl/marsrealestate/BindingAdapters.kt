@@ -15,4 +15,5 @@
  *
  */
 
-package com.example.android.marsrealestate.overview
+package at.htl.marsrealestate
+
