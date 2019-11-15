@@ -41,10 +41,10 @@ class OverviewViewModel : ViewModel() {
     val status: LiveData<String>
         get() = _status
 
-    private val _property = MutableLiveData<MarsProperty>()
+    private val _properties = MutableLiveData<List<MarsProperty>>()
 
-    val property: LiveData<MarsProperty>
-        get() = _property
+    val properties: LiveData<List<MarsProperty>>
+        get() = _properties
 
     private var viewModelJob = Job()
     private val coroutineScope = CoroutineScope(viewModelJob + Dispatchers.Main)
@@ -65,11 +65,7 @@ class OverviewViewModel : ViewModel() {
             try {
                 val listResult = getPropertiesDeferred.await()
                 _status.value = "Success: ${listResult.size} Mars properties retrieved"
-                if (listResult.size > 0) {
-                    println("#####################")
-                    _property.value = listResult[0]
-                    println(_property.value)
-                }
+                _properties.value = listResult
             }
             catch (e: Exception) {
                 _status.value = "Failure: ${e.message}"
