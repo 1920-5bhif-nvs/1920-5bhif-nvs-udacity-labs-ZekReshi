@@ -15,7 +15,7 @@
  *
  */
 
-package com.example.android.devbyteviewer.util
+package at.htl.devbyteviewer.util
 
 import android.view.View
 import android.widget.ImageView

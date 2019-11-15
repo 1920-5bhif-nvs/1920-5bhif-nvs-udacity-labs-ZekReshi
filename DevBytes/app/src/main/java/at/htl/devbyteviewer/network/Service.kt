@@ -15,7 +15,7 @@
  *
  */
 
-package com.example.android.devbyteviewer.network
+package at.htl.devbyteviewer.network
 
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import com.squareup.moshi.Moshi

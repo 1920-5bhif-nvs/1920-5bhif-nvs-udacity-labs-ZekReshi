@@ -15,13 +15,13 @@
  *
  */
 
-package com.example.android.devbyteviewer.viewmodels
+package at.htl.devbyteviewer.viewmodels
 
 import android.app.Application
 import androidx.lifecycle.*
-import com.example.android.devbyteviewer.domain.Video
-import com.example.android.devbyteviewer.network.Network
-import com.example.android.devbyteviewer.network.asDomainModel
+import at.htl.devbyteviewer.domain.Video
+import at.htl.devbyteviewer.network.Network
+import at.htl.devbyteviewer.network.asDomainModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

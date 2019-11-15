@@ -15,4 +15,4 @@
  *
  */
 
-package com.example.android.devbyteviewer.work
+package at.htl.devbyteviewer.repository
