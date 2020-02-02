@@ -27,7 +27,7 @@ android {
         enabled = true
     }
     defaultConfig {
-        applicationId "com.example.android.gdgfinder"
+        applicationId "at.htl.gdgfinder"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1

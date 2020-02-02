@@ -7,15 +7,15 @@
     <data>
         <variable
                 name="chapter"
-                type="com.example.android.gdgfinder.network.GdgChapter"/>
+                type="at.htl.gdgfinder.network.GdgChapter"/>
         <variable
                 name="clickListener"
-                type="com.example.android.gdgfinder.search.GdgClickListener"/>
+                type="at.htl.gdgfinder.search.GdgClickListener"/>
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:context="com.example.android.gdg.gdglist.GdgListFragment"
+            tools:context="at.htl.gdg.gdglist.GdgListFragment"
             android:onClick="@{() -> clickListener.onClick(chapter)}">
 
         <ImageView

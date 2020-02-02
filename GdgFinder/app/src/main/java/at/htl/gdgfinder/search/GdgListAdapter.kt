@@ -1,13 +1,13 @@
-package com.example.android.gdgfinder.search
+package at.htl.gdgfinder.search
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.android.gdgfinder.network.GdgChapter
-import com.example.android.gdgfinder.search.GdgListAdapter.GdgListViewHolder
-import com.example.android.gdgfinder.databinding.ListItemBinding
+import at.htl.gdgfinder.network.GdgChapter
+import at.htl.gdgfinder.search.GdgListAdapter.GdgListViewHolder
+import at.htl.gdgfinder.databinding.ListItemBinding
 
 class GdgListAdapter(val clickListener: GdgClickListener): ListAdapter<GdgChapter, GdgListViewHolder>(DiffCallback){
     companion object DiffCallback : DiffUtil.ItemCallback<GdgChapter>() {

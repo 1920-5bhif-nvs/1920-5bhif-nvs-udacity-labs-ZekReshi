@@ -1,4 +1,4 @@
-package com.example.android.gdgfinder.network
+package at.htl.gdgfinder.network
 
 import android.os.Parcelable
 import com.squareup.moshi.Json

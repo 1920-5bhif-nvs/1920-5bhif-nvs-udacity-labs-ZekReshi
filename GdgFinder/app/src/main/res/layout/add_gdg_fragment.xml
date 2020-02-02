@@ -8,7 +8,7 @@
 
         <variable
                 name="viewModel"
-                type="com.example.android.gdgfinder.add.AddGdgViewModel"/>
+                type="at.htl.gdgfinder.add.AddGdgViewModel"/>
     </data>
     <ScrollView android:layout_height="match_parent"
                 android:layout_width="match_parent">

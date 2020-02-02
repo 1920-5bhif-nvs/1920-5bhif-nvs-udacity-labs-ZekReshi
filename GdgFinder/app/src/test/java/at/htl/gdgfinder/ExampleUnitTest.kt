@@ -1,4 +1,4 @@
-package com.example.android.gdgfinder
+package at.htl.gdgfinder
 
 import org.junit.Test
 
