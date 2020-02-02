@@ -23,7 +23,6 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.home_fragment, container, false)
         val binding = HomeFragmentBinding.inflate(inflater)
         viewModel = ViewModelProviders.of(this).get(HomeViewModel::class.java)
         binding.viewModel = viewModel
