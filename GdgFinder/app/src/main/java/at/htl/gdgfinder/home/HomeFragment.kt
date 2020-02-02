@@ -1,4 +1,4 @@
-package com.example.android.gdgfinder.home
+package at.htl.gdgfinder.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
-import com.example.android.gdgfinder.R
+import at.htl.gdgfinder.R
 
 class HomeFragment : Fragment() {
 

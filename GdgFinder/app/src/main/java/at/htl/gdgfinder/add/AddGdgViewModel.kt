@@ -1,4 +1,4 @@
-package com.example.android.gdgfinder.add
+package at.htl.gdgfinder.add
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
